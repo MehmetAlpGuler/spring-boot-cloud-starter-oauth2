@@ -1,0 +1,13 @@
+# generate docker image
+docker-compose up
+
+curl http://localhost:8080/oauth/token -d "grant_type=password&username=user&password=user&client_id=client_id&client_secret=client_secret"
+
+curl http://localhost:8080/oauth/token -d "grant_type=password&username=admin&password=admin&client_id=client_id&client_secret=client_secret"
+
+curl http://localhost:8080/oauth/token -d "grant_type=password&username=other&password=other&client_id=client_id&client_secret=client_secret"
+
+curl http://localhost:8080/oauth/token -d "grant_type=client_credentials&client_id=client_id&client_secret=client_secret"
+
+# list all keys
+KEYS *
