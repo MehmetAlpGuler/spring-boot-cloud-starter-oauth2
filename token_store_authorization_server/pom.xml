@@ -43,11 +43,11 @@
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-oauth2</artifactId>
 		</dependency>
-		<!-- spring-security-oauth2 (fix redis token store bug)-->
+		<!-- spring-security-oauth2-->
 		<dependency>
 			<groupId>org.springframework.security.oauth</groupId>
 			<artifactId>spring-security-oauth2</artifactId>
-			<version>2.3.4.RELEASE</version>
+			<version>2.3.7.RELEASE</version>
 		</dependency>
 		<!-- spring-boot-starter-data-redis -->
 		<dependency>
