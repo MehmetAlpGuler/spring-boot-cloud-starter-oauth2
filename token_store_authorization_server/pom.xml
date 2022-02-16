@@ -34,7 +34,7 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>1.8</java.version>
 		<spring-cloud.version>Finchley.RC2</spring-cloud.version>
-		<postgresql.version>42.1.4</postgresql.version>
+		<postgresql.version>42.3.3</postgresql.version>
 	</properties>
 
 	<dependencies>
